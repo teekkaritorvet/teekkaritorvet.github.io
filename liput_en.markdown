@@ -12,7 +12,7 @@ Ticket prices:
 * Normal: 20 e + service fee
 * Discount groups: 15 e + service fee
 
-## Osta liput iltakonserttiin
+## Purchase tickets to evening concert!
 
 {%- include lippukauppa.html -%}
 
