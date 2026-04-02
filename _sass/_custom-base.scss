@@ -60,7 +60,7 @@ body::before {
   padding-bottom: 10px; /* Add some space below the nav */
   padding-left: 40px;
   padding-right: 40px;
-  background-color: #a4aab8; // Fallback color
+  background-color: $background-color; // Fallback color
   max-width: calc(740px - (40px * 2));
 
   /* Ensure the Minima default max-width and padding are applied here if needed.
@@ -106,6 +106,42 @@ body::before {
 .language-selector-wrapper::after {
   content: '\25BC'; position: absolute; top: 50%; right: 12px;
   transform: translateY(-50%); pointer-events: none; color: #555; font-size: 0.8em;
+}
+
+/* Style for the container - sublinks */
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+/* Hide the sub-menu by default */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: $background-color;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Show the menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* This targets the links ONLY when the mouse is over them */
+.dropdown-content a:hover {
+  text-decoration: underline;
+  /* Optional: change the color of the text when hovering */
+  color: $text-color;
 }
 
 /* --- Mobile Layout (Below 768px) --- */

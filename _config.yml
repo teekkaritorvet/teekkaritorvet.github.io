@@ -30,6 +30,12 @@ lang: fi
 #github_username:  jekyll
 instagram_username: teekkaritorvet
 facebook_username: Teekkaritorvet
+myynti: Joonas Kinnunen
+pj: Vilma Simojoki
+kapellimestari: Iines Tikka
+email_myynti: myynti@teekkaritorvet.com
+email_pj: puheenjohtaja@teekkaritorvet.com
+email_kapellimestari: kapellimestari@teekkaritorvet.com
 
 header_pages:
   - aikataulu.markdown

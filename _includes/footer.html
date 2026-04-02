@@ -8,13 +8,8 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
+          <h3>Teekkaritorvet ry</h3>
+            {%- include social.html -%}
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
@@ -22,11 +17,15 @@
       </div>
 
       <div class="footer-col footer-col-2">
-        {%- include social.html -%}
+        <h3>Puheenjohtaja</h3>
+        {{ site.pj | escape }}
+        <li><a class="u-email" href="mailto:{{ site.email_pj }}">{{ site.email_pj }}</a></li>
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        <h3>Myynti</h3>
+        {{ site.myynti | escape }}
+       <li><a class="u-email" href="mailto:{{ site.email_myynti }}">{{ site.email_myynti }}</a></li>
       </div>
     </div>
 

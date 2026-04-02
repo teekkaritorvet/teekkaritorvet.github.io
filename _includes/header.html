@@ -14,23 +14,26 @@
           </span>
         </label>
 
+
         <div class="trigger">
-          {% assign current_lang = page.lang | default: site.lang | default: "fi" %}
-          {% assign menu_items = site.data.navigation[current_lang] %}
-          {%- if menu_items -%}
-            {%- for item in menu_items -%}
+          {%- for item in site.data.navigation.fi -%}
+          
+            {% if item.sublinks %}
+              <div class="dropdown">
+                <a class="page-link dropdown-toggle" href="#">{{ item.title | escape }} ▾</a>
+                <div class="dropdown-content">
+                  {% for sub in item.sublinks %}
+                    <a class="page-link" href="{{ sub.url | relative_url }}">{{ sub.title | escape }}</a>
+                  {% endfor %}
+                </div>
+              </div>
+            {% else %}
               <a class="page-link" href="{{ item.url | relative_url }}">
                 {{ item.title | escape }}
               </a>
-            {%- endfor -%}
-          {%- else -%}
-            {%- assign default_menu_items = site.data.navigation[site.lang] | default: site.data.navigation["fi"] -%}
-            {%- for item in default_menu_items -%}
-              <a class="page-link" href="{{ item.url | relative_url }}">
-                {{ item.title | escape }}
-              </a>
-            {%- endfor -%}
-          {%- endif -%}
+            {% endif %}
+            
+          {%- endfor -%}
         </div>
       </nav>
   </div>

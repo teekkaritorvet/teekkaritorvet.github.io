@@ -7,7 +7,7 @@ ref: in-english
 ---
 ## Do you play a wind instrument or the drums?
 
-Are you hoping for a chance to play during your stay in Oulu? Then show up with your instrument at Sorvarintie 5, 90530 Oulu [map], at 17.45 on Thursday for one of the best ways of getting to know some Finns.  In some cases we can help you  borrow an instrument.
+Are you hoping for a chance to play during your stay in Oulu? Then show up with your instrument at Sorvarintie 5, 90530 Oulu [map](https://kartta.ouka.fi/IMS/?layers=Opaskartta&cp=7214711,475661&z=0.5), at 17.45 on Thursday for one of the best ways of getting to know some Finns.  In some cases we can help you  borrow an instrument.
 
 For more information, drop a line to our conductor.
 
@@ -25,10 +25,10 @@ myynti(at)teekkaritorvet.com
 
 ## Short history
 
-Teekkaritorvet wind band was founded by Oulu University tech students in 1970. Nowadays we have a delightfully multidisciplinary line-up of woodwind, brass, and percussion players from freshmen to PhDs. We are one of the interest societies functioning under OYY, the student union of the University of Oulu. Our impressive repertoire ranges from Finnish dance music to pop classics and march music to jazz. We also play funk, disco, rock, and racy swing. This makes us a popular entertainment number with 30-50 gigs every year. You might spot us at various public and private functions, such as university and student festivities, graduation parties, opening ceremonies, weddings, and anniversaries.
+Teekkaritorvet wind band was founded by Oulu University tech students in 1970. Nowadays we have a delightfully multidisciplinary line-up of woodwind, brass, and percussion players from freshmen to PhDs. We are one of the interest societies functioning under OYY, [the student union of the University of Oulu](https://www.oyy.fi/en/). Our impressive repertoire ranges from Finnish dance music to pop classics and march music to jazz. We also play funk, disco, rock, and racy swing. This makes us a popular entertainment number with 30-50 gigs every year. You might spot us at various public and private functions, such as university and student festivities, graduation parties, opening ceremonies, weddings, and anniversaries.
 
 Teekkaritorvet is especially famous for our annual Wappu performances in Linnansaari and Rotuaari around May 1st. It is nearly impossible not to hear Teekkaritorvet play during Wappu celebrations. For us players it is often the busiest (and most fun) time of the year.
 
 ## Where to find us online?
 
-On our Facebook page  you can find pictures and videos from our gigs, and look for up-coming events.  We also have YouTube, Instagram and TikTok accounts that you are more than welcome to check out.
+On our [Facebook page](https://www.facebook.com/teekkaritorvet) you can find pictures and videos from our gigs, and look for up-coming events.  We also have [Instagram](https://www.instagram.com/teekkaritorvet/), [YouTube](https://www.youtube.com/channel/UChIuWfq3VNyaVLbfoWBXezA) and [TikTok](https://www.tiktok.com/@teekkaritorvet) accounts that you are more than welcome to check out.
