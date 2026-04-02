@@ -3,11 +3,10 @@ layout: frontpage
 lang: fi
 ref: main
 ---
-## Oulussa 20.9.2025
+## Teekkaritorvet
 
-Puhallus-festivaali on joka toinen vuosi järjestettävä puhallinmusiikkitapahtuma, joka kerää yhteen yhteen akateemisia puhallinorkestereita ympäri Suomen. Tapahtumaa on järjestetty vuodesta 1990 lähtien vuorotellen eri opiskelijakaupungeissa. Vuonna 2025 tapahtuma saapuu Ouluun 12 vuoden tauon jälkeen.
+Uudet soittajat! Tervetuloa Teekkaritorvien treeneihin torstaisin klo 17.45-20. Harjoitusten paikkana toimii Tukikohta osoitteessa Sorvarintie 5. Mukaan soittamaan kannattaa lähteä matalalla kynnyksellä, vaikka soittoharrastus olisikin ollut tauolla jo jonkin aikaa.
 
-Tapahtumaan osallistuu 12 akateemista opiskelijapuhallinorkesteria eri puolilta Suomea. Kaiken kaikkiaan Oulun Puhalluksessa nähdään ja kuullaan miltei 300 soittajaa. Orkesterikattaus on hyvin moninainen sisältäen big bandeja, perinteisiä puhallinorkestereja sekä mitä erilaisimpia viihteellisiä kokoonpanoja. Musiikkigenrejä kuullaan pop- ja rockmusiikista klassiseen puhallinorkesterimusiikkiin, unohtamatta tietenkään uudempaa ranskalaista torvimusiikkia. Monet esiintyvät orkesterit tuovat mukanaan myös oman uniikin elämyksensä erilaisten tanssiryhmien ja muiden show-elementtien kautta.
+### Oulun viihteellisin puhallinorkesteri
 
-### Puhallus-festivaalin virallinen promovideo
-{% include youtube_embed.html video_id="nURPKchvhQw" %}
+Teekkaritorvet on Oulun tavoitelluin viihdeorkesteri, jonka soittajakunta on läpileikkaus uusista ja entisistä oululaisista opiskelijoista. Orkesterin toiminta on jatkunut jo viidenkymmenen vuoden ajan. Teekkaritorvet tarjoaa monipuolista, viihteellistä musiikkia erilaisiin juhlatilaisuuksiin ja tapahtumiin. Tämä orkesteri ei turhia jäykistele vaan puhaltaa itsensä ja yleisönsä kunnon meininkeihin!

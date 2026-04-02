@@ -4,32 +4,12 @@ body {
   position: relative; /* Essential for positioning the pseudo-element */
   z-index: 1; /* Ensures body is a stacking context, useful if other elements have z-index */
 
-  background-image: url('../assets/images/background3.png');
+  background-image: url('../assets/images/Torvitausta.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
   background-color: #f6f6f6; // Fallback color
-}
-
-/* For Tablets and smaller Desktops (e.g., up to 1024px) */
-@media (max-width: 1024px) {
-  body {
-    background-image: url('../assets/images/background_medium.png');
-    background-position: top center; // Or adjust for this image
-    background-size: auto;
-    background-repeat: repeat;
-  }
-}
-
-/* For Mobile Devices (e.g., up to 768px or 480px, adjust breakpoint as needed) */
-@media (max-width: 768px) {
-  body {
-    background-image: url('../assets/images/background_small.png');
-    background-position: top center; // Or adjust for this image
-    background-size: auto;
-    background-repeat: repeat;
-  }
 }
 
 body::before {
@@ -80,7 +60,7 @@ body::before {
   padding-bottom: 10px; /* Add some space below the nav */
   padding-left: 40px;
   padding-right: 40px;
-  background-color: #749FFB; // Fallback color
+  background-color: #a4aab8; // Fallback color
   max-width: calc(740px - (40px * 2));
 
   /* Ensure the Minima default max-width and padding are applied here if needed.
