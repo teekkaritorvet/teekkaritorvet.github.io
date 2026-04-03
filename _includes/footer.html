@@ -8,24 +8,32 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <h3>Teekkaritorvet ry</h3>
-            {%- include social.html -%}
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+          <h3>Puheenjohtaja</h3>
+          {{ site.pj | escape }}
+          {%- if site.email_pj -%}
+          <li><a class="u-email" href="mailto:{{ site.email_pj }}">{{ site.email_pj }}</a></li>
+          {%- endif -%}
+          {%- include social.html -%}
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
-        <h3>Puheenjohtaja</h3>
-        {{ site.pj | escape }}
-        <li><a class="u-email" href="mailto:{{ site.email_pj }}">{{ site.email_pj }}</a></li>
+        <ul class="contact-list">
+          <h3>Kapellimestari</h3>
+          {{ site.kapellimestari | escape }}
+          {%- if site.email_kapellimestari -%}
+          <li><a class="u-email" href="mailto:{{ site.email_kapellimestari }}">{{ site.email_kapellimestari }}</a></li>
+          {%- endif -%}
+        </ul>
+
       </div>
 
       <div class="footer-col footer-col-3">
-        <h3>Myynti</h3>
-        {{ site.myynti | escape }}
-       <li><a class="u-email" href="mailto:{{ site.email_myynti }}">{{ site.email_myynti }}</a></li>
+        <ul class="contact-list">
+          <h3>Myynti</h3>
+          {{ site.myynti | escape }}
+          <li><a class="u-email" href="mailto:{{ site.email_myynti }}">{{ site.email_myynti }}</a></li>
+       </ul>
       </div>
     </div>
 
